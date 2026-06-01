@@ -1,4 +1,4 @@
-# RF-MoE: Region-Frequency Mixture of Experts for Deepfake Detection
+# Generalized Deepfake Detection: Region-Frequency Mixture of Experts
 
 RF-MoE is a deepfake detector targeting the **DF40 (NeurIPS 2024)** benchmark. It combines a
 partially fine-tuned **CLIP-Large ViT-L/14** backbone with learnable region-aware expert
