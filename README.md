@@ -43,11 +43,14 @@ Loss: cross_entropy + 0.1·load_balance + 0.1·gating_entropy
 | `check_dataset_stats.py`, `scan_checkpoints.py` | Utilities |
 | `compile_results.py`, `make_final_tables.py`, `generate_html_tables.py` | Result compilation |
 | `run_all.sh` | End-to-end pipeline |
+| `ablation/` | Ablation study: detector variant (A1–A4), configs, runner, and `ABLATION_LOG.md` |
+| `requirements.txt` | Python dependencies (`albumentations==1.3.1` is pinned) |
 
 ## Usage
 
 ```bash
-python setup.py                       # one-time setup
+pip install -r requirements.txt       # dependencies
+python setup.py                       # one-time setup (clones DF40, patches, registers detector)
 python generate_jsons.py              # build train-split metadata
 python run_training.py --mode fs      # train (fs | fr | efs | joint)
 python find_best_epoch.py --mode fs   # pick best checkpoint

@@ -1,0 +1,27 @@
+# RF-MoE dependencies
+# Install with:  pip install -r requirements.txt
+#
+# NOTE: albumentations MUST be 1.3.1 — newer versions cause a ZeroDivisionError
+#       during training augmentation in the DF40 framework.
+
+torch
+torchvision
+transformers            # CLIP-Large ViT-L/14 backbone
+albumentations==1.3.1   # pinned — newer versions break training augmentation
+timm                    # CNN backbones used by DF40 baseline detectors
+kornia                  # geometric augmentation
+opencv-python           # image I/O
+scikit-image            # image processing utilities
+scikit-learn            # AUC / metrics
+einops                  # tensor ops
+pandas                  # data handling
+numpy
+pyyaml                  # config parsing
+tensorboard             # training logging
+tqdm                    # progress bars
+imageio                 # image I/O fallback
+lmdb                    # dataset loading
+fvcore                  # vision core utilities
+iopath                  # path utilities
+simplejson              # fast JSON
+efficientnet_pytorch    # EfficientNet backbone
