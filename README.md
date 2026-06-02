@@ -61,6 +61,14 @@ python compile_results.py             # formatted result tables
 > Note: `BASE` paths in the scripts point to the training server layout
 > (`/home/ibubu/ketupati`). Adjust these to your environment before running.
 
+## Pretrained Checkpoints
+
+Trained RF-MoE checkpoints (FS, FR, EFS, and Joint modes) are available on Google Drive:
+
+🔗 https://drive.google.com/drive/folders/1o5jaEnUcrKtyKxYXeJPzTZXgzdjTKguL?usp=sharing
+
+Download the checkpoint for the desired mode and pass it to `run_evaluation.py` via `--checkpoint`.
+
 ## Citation
 
 DF40 benchmark: *DF40: Toward Next-Generation Deepfake Detection*, NeurIPS 2024.
