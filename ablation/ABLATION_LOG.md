@@ -238,3 +238,5 @@ The largest gains over CLIP come from RegionAttentionPool (A2 shows −0.048 T5 
 | A2 no_region    | ✅ Done | Ep14 (val=0.9768) | ✅ Done | |
 | A3 uniform_gate | ✅ Done | Ep14 (val=0.9789) | ✅ Done | |
 | A4 frozen_bb    | ✅ Done | Ep5  (val=0.9653) | ✅ Done | |
+
+<!-- Part of the RF-MoE repository. License: All Rights Reserved (see ../LICENSE). -->
