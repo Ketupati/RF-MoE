@@ -111,7 +111,7 @@ python compile_results.py             # formatted result tables
 
 ## Pretrained Checkpoints
 
-Trained RF-MoE checkpoints (FS, FR, EFS, and Joint modes) are available on Google Drive:
+The top-5 checkpoints (ranked by best validation AUC) for each mode (FS, FR, EFS, and Joint) are available on Google Drive:
 
 🔗 https://drive.google.com/drive/folders/1o5jaEnUcrKtyKxYXeJPzTZXgzdjTKguL?usp=sharing
 
